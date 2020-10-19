@@ -121,6 +121,7 @@ nav a:nth-child(2) {
 }
 
 
+
 /* header */
 
 header {
@@ -142,13 +143,19 @@ header p {
 .boy{
       position:absolute;
       left:0px; 
-      top:0px;"
+      top:0px;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.clock{
+      color: #BEF7E4;
+      font-family: Monospace;
+      font-size: 2rem;
 }
 
 .container {

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +33,22 @@
                               <h1 class="anim" class="typewriter">Siddharth Gangwar</h1>
                               <br>
                               <a href="https://drive.google.com/drive/folders/1e5B3YZmIa_0Ih1VQLXsnWUW-a8z5ZOr_?usp=sharing" download="Siddharth's Resume" cursor="pointer" target="_blank"><button class="button" type="button" onclick="alert('Access Granted')">Resume</button>
-                              </a>
+                              </a><br>
+                              <span class="clock" id='time'>
+                                    <br> Current time/date is ....
+                                    <script>
+                                          let a;
+                                          let date;
+                                          let time;
+                                          const options = {weekday:'long', year:'numeric', month:'long', day:'numeric'};
+                                          setInterval(() => {
+                                                a = new Date(); 
+                                                date = a.toLocaleDateString(undefined, options);
+                                                time = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds();
+                                                document.getElementById("time").innerHTML = "<br><br>" + time + "<br>" + date;
+                                          }, 1000);
+                                    </script>
+                              </span>
                         </div>
                   </div>
             </header>
