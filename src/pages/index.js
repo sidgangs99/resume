@@ -1,11 +1,7 @@
-import * as React from "react"
+import * as React from "react";
 
 const IndexPage = () => {
-  return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-    </main>
-  )
-}
+  return <h1 className="text-3xl font-bold underline">Hello world! m</h1>;
+};
 
-export default IndexPage
+export default IndexPage;
