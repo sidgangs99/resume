@@ -1,19 +1,17 @@
 import * as React from "react";
 
-import About from "../components/about";
-import Hobbies from "../components/hobbies";
-import Projects from "../components/projects";
-import Skills from "../components/skills";
-import WorkExperiance from "../components/workExperiances";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import Layout from "./layout";
 
 const IndexPage = () => {
   return (
     <>
-      <About />
-      <Skills />
-      <Projects />
-      <WorkExperiance />
-      <Hobbies />
+      <Header />
+      <div className="snap-mandatory snap-y overflow-scroll h-screen w-screen">
+        <Layout />
+      </div>
+      <Footer />
     </>
   );
 };
