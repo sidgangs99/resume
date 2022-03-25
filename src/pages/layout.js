@@ -4,10 +4,10 @@ import About from "../components/me/about";
 import Hobbies from "../components/me/hobbies";
 import Projects from "../components/me/projects";
 import Skills from "../components/me/skills";
-import WorkExperiance from "../components/me/workExperiances";
+import WorkExperiance from "../components/me/work-experiances";
 
 export default function Layout() {
-  const className = "h-screen w-screen snap-start border-2";
+  const className = "h-screen w-screen snap-start";
   return (
     <>
       <div className={className}>
