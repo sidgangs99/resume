@@ -2,11 +2,11 @@ import * as React from "react";
 
 import Footer from "../components/footer";
 import Header from "../components/header";
-import Layout from "./layout";
+import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
-    <>
+    <div className="font-mono">
       <div className="sticky top-0 h-10 w-full flex items-center justify-around bg-zinc-800 text-zinc-400">
         <Header />
       </div>
@@ -14,7 +14,7 @@ const IndexPage = () => {
         <Layout />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

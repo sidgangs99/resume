@@ -12,9 +12,9 @@ export default function Header() {
       <div className="text-sm font-light">Let's connect</div>
       <div className="flex space-x-3 md:space-x-6 items-center justify-center">
         <Medium />
-        <Mail />
         <LinkedIn />
         <Twitter />
+        <Mail />
         <img
           src={ProfilePic}
           className="w-6 h-6 rounded-full bg-cover bg-center"
