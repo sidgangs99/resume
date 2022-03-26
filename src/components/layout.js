@@ -17,9 +17,10 @@ export default function Layout() {
       <div className={className}>
         <Blogs />
       </div>
-      {/* <div className={className}>
+      <div className={className}>
         <Skills />
       </div>
+      {/*
       <div className={className}>
         <Projects />
       </div> 

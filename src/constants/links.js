@@ -17,3 +17,6 @@ export const blogs = {
 
 // npm package: @dhaiwat10/react-link-preview
 export const urlPreviewGeneratorLink = "https://rlp-proxy.herokuapp.com/v2";
+
+export const resumeDriveLink =
+  "https://drive.google.com/file/d/1ODPLGQHTT3FFa5vfR_xApvDgMlROeIiW/view?usp=sharing";

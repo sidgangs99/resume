@@ -1,7 +1,7 @@
 import * as React from "react";
 
 const ReactIcon = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" {...props}>
     <path
       fill="#80deea"
       d="M24 34C11.1 34 1 29.6 1 24s10.1-10 23-10 23 4.4 23 10-10.1 10-23 10zm0-18c-12.6 0-21 4.1-21 8 0 3.9 8.4 8 21 8s21-4.1 21-8c0-3.9-8.4-8-21-8z"
