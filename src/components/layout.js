@@ -22,13 +22,14 @@ export default function Layout() {
       </div>
       <div className={className}>
         <Projects />
-      </div> */}
+      </div> 
       <div className={className}>
         <WorkExperiance />
       </div>
       <div className={className}>
         <Hobbies />
       </div>
+      */}
     </>
   );
 }
