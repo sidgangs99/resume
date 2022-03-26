@@ -13,13 +13,13 @@ import { resumeDriveLink } from "../../constants/links";
 
 export default function Skills() {
   return (
-    <div className="flex h-screen w-screen flex-col items-center justify-around ">
+    <div className="flex h-screen w-screen flex-col items-center justify-around pt-6">
       <p className="text-2xl text-lime-300">I have 👨‍💻 on</p>
       <div className="flex w-screen flex-col items-center justify-center">
         <div className="flex w-3/4 flex-row items-center justify-between py-4 md:w-2/4">
           <p className="text-lime-400">Languages</p>
-          <div className="flex flex-row flex-wrap items-center space-x-4">
-            <div className="h-10 w-10">
+          <div className="flex flex-row flex-wrap items-center space-x-2 md:space-x-4">
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a
                 href="https://www.javascript.com"
                 rel="noreferrer"
@@ -28,7 +28,7 @@ export default function Skills() {
                 <img src={JavascriptGif} alt="Javascript" />
               </a>
             </div>
-            <div>
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a
                 href="https://www.cplusplus.com"
                 rel="noreferrer"
@@ -37,12 +37,12 @@ export default function Skills() {
                 <CppIcon />
               </a>
             </div>
-            <div className="h-10 w-10 ">
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a href="https://www.python.org" rel="noreferrer" target="_blank">
                 <img src={PythonGif} alt="Python" className="rounded-full" />
               </a>
             </div>
-            <div className="h-20 w-20">
+            <div className="h-10 w-10 md:h-20 md:w-20">
               <a href="https://go.dev" rel="noreferrer" target="_blank">
                 <GoLangIcon />
               </a>
@@ -51,13 +51,13 @@ export default function Skills() {
         </div>
         <div className="flex w-3/4 flex-row items-center justify-between py-4 md:w-2/4">
           <p className="text-lime-400">Libraries</p>
-          <div className="flex flex-row flex-wrap items-center space-x-4">
-            <div className="h-10 w-10">
+          <div className="flex flex-row flex-wrap items-center space-x-2 md:space-x-4">
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a href="https://reactjs.org" rel="noreferrer" target="_blank">
                 <ReactIcon />
               </a>
             </div>
-            <div className="h-10 w-10">
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a href="https://nodejs.org/en/" rel="noreferrer" target="_blank">
                 <NodeIcon />
               </a>
@@ -66,19 +66,19 @@ export default function Skills() {
         </div>
         <div className="flex w-3/4 flex-row items-center justify-between py-4 md:w-2/4">
           <p className="text-lime-400">Technologies</p>
-          <div className="flex flex-row flex-wrap items-center space-x-4">
-            <div className="h-10 w-10">
+          <div className="flex flex-row flex-wrap items-center space-x-2 md:space-x-4">
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a href="https://www.linux.org" rel="noreferrer" target="_blank">
                 {/* <LinuxIcon /> */}
                 <img src={LinuxGif} alt="Javascript" className="rounded-full" />
               </a>
             </div>
-            <div className="h-20 w-20">
+            <div className="h-10 w-10 md:h-20 md:w-20">
               <a href="https://aws.amazon.com" rel="noreferrer" target="_blank">
                 <AWSIcon />
               </a>
             </div>
-            <div className="h-10 w-10">
+            <div className="h-6 w-6 md:h-10 md:w-10">
               <a href="https://git-scm.com" rel="noreferrer" target="_blank">
                 <GitIcon />
               </a>
