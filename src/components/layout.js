@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import About from "./me/about";
+import Blogs from "./me/blogs";
 import Hobbies from "./me/hobbies";
 import Projects from "./me/projects";
 import Skills from "./me/skills";
@@ -14,11 +15,14 @@ export default function Layout() {
         <About />
       </div>
       <div className={className}>
+        <Blogs />
+      </div>
+      {/* <div className={className}>
         <Skills />
       </div>
       <div className={className}>
         <Projects />
-      </div>
+      </div> */}
       <div className={className}>
         <WorkExperiance />
       </div>
