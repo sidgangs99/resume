@@ -10,8 +10,9 @@ export const mails = {
 
 export const blogs = {
   medium: [
-    "https://medium.com/@sidgangs99/why-are-design-patterns-classified-into-just-3-categories-b2a0e4e0ea72",
     "https://medium.com/@sidgangs99/helpful-resources-for-studying-design-patterns-3eb3a57a46c2",
+    "https://medium.com/@sidgangs99/why-i-quit-using-inheritance-instead-started-using-object-composition-732003f03e58",
+    "https://medium.com/@sidgangs99/why-are-design-patterns-classified-into-just-3-categories-b2a0e4e0ea72",
   ],
 };
 
