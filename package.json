@@ -7,7 +7,9 @@
   "keywords": [
     "gatsby"
   ],
+  "homepage": "https://sidgangs99.github.io/resume/",
   "scripts": {
+    "predeploy": "npm run build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
