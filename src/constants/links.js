@@ -11,6 +11,7 @@ export const mails = {
 export const blogs = {
   medium: [
     "https://medium.com/@sidgangs99/helpful-resources-for-studying-design-patterns-3eb3a57a46c2",
+    "https://medium.com/@sidgangs99/its-all-about-engineering-a-load-balancer-types-configuration-algorithms-e7466047eb50",
     "https://medium.com/@sidgangs99/why-i-quit-using-inheritance-instead-started-using-object-composition-732003f03e58",
     "https://medium.com/@sidgangs99/why-are-design-patterns-classified-into-just-3-categories-b2a0e4e0ea72",
     "https://medium.com/@sidgangs99/leveldb-invented-by-google-and-used-by-cryptocurrencies-like-bitcoin-9fb35f1efb6a",
