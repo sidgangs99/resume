@@ -1,6 +1,7 @@
 import React from "react";
 
 import { blogs } from "../../constants/links";
+import RightArrow from "../../images/icons/right-arrow";
 import BlogsPreviewGenerator from "./blogs-preview-generator";
 
 export default function Blogs() {
@@ -18,6 +19,12 @@ export default function Blogs() {
             <BlogsPreviewGenerator url={link} />
           </div>
         ))}
+      </div>
+      <div className="flex w-screen flex-row items-center justify-center space-x-4">
+        <p className="text-sm text-lime-300">Swipe to view more</p>
+        <div className="h-4 w-4 fill-lime-300">
+          <RightArrow />
+        </div>
       </div>
     </div>
   );
