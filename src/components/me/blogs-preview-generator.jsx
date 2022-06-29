@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 import { urlPreviewGeneratorLink } from "../../constants/links";
-import axios from "axios";
 import CardComponent from "../templates/cardComponent";
 
 export default function BlogsPreviewGenerator({ url }) {
