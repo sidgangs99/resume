@@ -2,10 +2,10 @@ import * as React from "react";
 
 import About from "./me/about";
 import Blogs from "./me/blogs";
-import Hobbies from "./me/hobbies";
-import Projects from "./me/projects";
 import Skills from "./me/skills";
-import WorkExperiance from "./me/work-experiances";
+// import Hobbies from "./me/hobbies";
+// import Projects from "./me/projects";
+// import WorkExperiance from "./me/work-experiances";
 
 export default function Layout() {
   const className = "h-screen w-screen snap-start bg-neutral-900";

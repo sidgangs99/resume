@@ -13,7 +13,7 @@ export default function CardComponent({ image, description, title, url }) {
           <img
             src={image}
             alt="blog preview"
-            className="h-24 w-48 rounded object-cover"
+            className="h-24 w-48 rounded object-cover opacity-70"
           />
           <h3 className="text-ellipsis font-bold text-lime-500">{title}</h3>
           <p className="overflow-hidden text-ellipsis text-xs font-light text-lime-100">

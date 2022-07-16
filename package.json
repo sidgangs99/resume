@@ -15,13 +15,15 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "commit": "cz"
   },
   "dependencies": {
     "axios": "^0.26.1",
     "gatsby": "^4.10.3",
-    "gatsby-plugin-image": "^2.10.1",
-    "gatsby-plugin-react-helmet": "^5.10.0",
+    "gatsby-plugin-image": "^2.18.1",
+    "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-react-helmet": "^5.18.0",
     "gatsby-plugin-sharp": "^4.10.2",
     "gatsby-plugin-sitemap": "^5.10.2",
     "gatsby-source-filesystem": "^4.10.1",

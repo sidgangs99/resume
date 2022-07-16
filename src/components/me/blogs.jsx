@@ -13,17 +13,19 @@ export default function Blogs() {
         <p>Catch out some medium blogs...</p>
         <p className="animate-bounce text-xl md:text-3xl">👇</p>
       </div>
-      <div className="flex w-3/4 snap-x snap-mandatory flex-row items-center justify-start space-x-8 overflow-x-auto">
-        {mediumLinks.map((link, idx) => (
-          <div key={idx}>
-            <BlogsPreviewGenerator url={link} />
+      <div className="flex w-screen flex-col items-center justify-start space-y-4 ">
+        <div className="flex w-3/4 animate-pulse flex-row items-end justify-end space-x-4">
+          <p className="text-sm text-lime-300">Swipe to view more</p>
+          <div className="h-4 w-4 fill-lime-300">
+            <RightArrow />
           </div>
-        ))}
-      </div>
-      <div className="flex w-screen flex-row items-center justify-center space-x-4">
-        <p className="text-sm text-lime-300">Swipe to view more</p>
-        <div className="h-4 w-4 fill-lime-300">
-          <RightArrow />
+        </div>
+        <div className="flex w-3/4 snap-x snap-mandatory flex-row items-center justify-start space-x-8 overflow-x-auto pb-8">
+          {mediumLinks.map((link, idx) => (
+            <div key={idx}>
+              <BlogsPreviewGenerator url={link} />
+            </div>
+          ))}
         </div>
       </div>
     </div>
