@@ -1,6 +1,5 @@
-import logo from './logo.svg'
-import './App.css'
 import { Helmet } from 'react-helmet'
+import './App.css'
 import Header from './components/header'
 import Layout from './components/layout'
 

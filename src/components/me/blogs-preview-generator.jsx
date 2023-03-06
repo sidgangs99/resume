@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Status } from '../../constants/links'
 
 import CardComponent from '../templates/cardComponent'
