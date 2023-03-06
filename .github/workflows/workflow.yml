@@ -14,15 +14,11 @@ jobs:
       with:
         ref: master
         submodules: recursive
-      # Replace the following line with the updated version
-      # of Node.js that you want to use (e.g., 16.x).
-      env:
-        NODE_VERSION: 16.x
 
-    - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v2
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v2.5.1
       with:
-        node-version: ${{ env.NODE_VERSION }}
+        node-version: '16.x'
 
     - name: Install dependencies
       run: |
