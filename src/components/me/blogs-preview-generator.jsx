@@ -4,38 +4,24 @@ import axios from "axios";
 import { linkPreviewKey, urlPreviewGeneratorLink } from '../../constants/links'
 import CardComponent from "../templates/cardComponent";
 import CardSkeletonComponent from "../templates/cardSkeleton";
+import { useGetPreview } from './hooks/useGetPreview'
 
 export default function BlogsPreviewGenerator({ url }) {
-  const [previewData, setPreviewData] = useState({})
-  useEffect(() => {
-    axios
-        .post(urlPreviewGeneratorLink, {
-            key: linkPreviewKey,
-            q: url,
-        })
-        .then(({ data }) => {
-            const { metadata } = data
-            setPreviewData(metadata)
-        })
-  }, [url]);
+    const { data, isLoading } = useGetPreview(url)
 
-  useEffect(() => {
-    console.log(Object.keys(previewData));
-  }, [previewData]);
-
-  return (
-    <div className="h-full w-full snap-center text-xs">
-      {Object.keys(previewData).length > 0 ? (
-        <CardComponent
-          title={previewData.title}
-          url={url}
-          description={previewData.description}
-          image={previewData.image}
-          siteName={previewData.siteName}
-        />
-      ) : (
-        <CardSkeletonComponent />
-      )}
-    </div>
-  );
+    return (
+        <div className="h-full w-full snap-center text-xs">
+            {isLoading ? (
+                <CardComponent
+                    title={data?.title}
+                    url={url}
+                    description={data?.description}
+                    image={data?.image}
+                    siteName={data?.siteName}
+                />
+            ) : (
+                <CardSkeletonComponent />
+            )}
+        </div>
+    )
 }
