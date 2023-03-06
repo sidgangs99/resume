@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -12,7 +12,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       with:
-        ref: main
+        ref: master
         submodules: recursive
       # Replace the following line with the updated version
       # of Node.js that you want to use (e.g., 16.x).
