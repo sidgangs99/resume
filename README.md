@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi, my name is **Siddharth Gangwar**, and I'm a problem solver at heart. Whether the challenge is big or small, I'm passionate about finding efficient solutions to any type of problem. With a background in software development, I have developed a wide range of skills and knowledge that enable me to approach problems from different angles and come up with innovative solutions.
 
-## Available Scripts
+I am constantly seeking new challenges and opportunities to grow, and I believe that my problem-solving abilities, coupled with my strong work ethic, make me an asset to any team.
 
-In the project directory, you can run:
+**Thank you for visiting my portfolio, and feel free to reach out to me to discuss how we can work together to tackle your next project or challenge.**
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Skills
+Medium Blog Links
+Experiences
+About Me
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Skills
 
-### `npm test`
+#### Over 5000 lines:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Python • Javascript • C++ • CSS
 
-### `npm run build`
+#### Over 1000 lines:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+C • Java • GoLang • Bash • LATEX
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Familiar:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Amazon Web Services • Google Cloud Console • React Js
+• Node Js • MongoDB • MySQL • Express Js • Microservices
+• Git • Nest Js • API • Jest • Cypress • Docker • Docker-compose
+• Tailwind • Linux • Redis
 
-### `npm run eject`
+## Checkout some Amazing Medium Blogs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   [ ] [Helpful resources for studying design patterns
+        ](https://medium.com/@sidgangs99/helpful-resources-for-studying-design-patterns-3eb3a57a46c2)
+-   [ ] [It’s all about engineering a load balancer: Types, Configuration & Algorithms
+        ](https://medium.com/@sidgangs99/its-all-about-engineering-a-load-balancer-types-configuration-algorithms-e7466047eb50)
+-   [ ] [Let’s build Service Discovery Server — System Design
+        ](https://medium.com/@sidgangs99/lets-build-service-discovery-server-system-design-3b27dd4d3f7f)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   [ ] [Map Reduce — how Google operate on large files (in GB’s or TB’s)
+        ](https://medium.com/@sidgangs99/map-reduce-how-google-operate-on-large-files-in-gbs-or-tb-s-f3b28487a7ae)
+-   [ ] [GFS — Google File System Architecture
+        ](https://medium.com/@sidgangs99/gfs-google-file-system-architecture-56b3c55a0c4b)
+-   [ ] [Garbage Collection: The Importance of Automatic Memory Management in Programming Languages
+        ](https://medium.com/@sidgangs99/garbage-collection-the-importance-of-automatic-memory-management-in-programming-languages-7e99c77eaf09)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-   [ ] [Discovering the Power of Spatial Indexing: The Key to Effortless Geographic Data Management
+        ](https://medium.com/bloggingtimes/discovering-the-power-of-spatial-indexing-the-key-to-effortless-geographic-data-management-77228909a7cb)
+-   [ ] [The Page Token Method in BigQuery: An Efficient Approach to Pagination
+        ](https://medium.com/bloggingtimes/the-page-token-method-in-bigquery-an-efficient-approach-to-pagination-7d8f2443c69d)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Experience
 
-## Learn More
+##### CARGILL | Associate Software Engineer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###### Feb 2022 - Present | Bangalore, IN
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Connecting farmers with markets, customers with ingredients and families with daily essentials
 
-### Code Splitting
+1. Implemented advanced Sankey diagrams to track the flow of agricultural goods,
+   which later became one of the unique selling points (USPs) of SustainIt.
+2. Improved SEO, web vitals, and performance by analyzing lighthouse reports, resulting in scores greaterthan 70% for each metric.
+3. Accountable for organizing and managing monthly technical talks and knowledge-sharing gatherings.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### NBYULA | Software Development Engineer I
 
-### Analyzing the Bundle Size
+###### June 2021 – Jan 2022 | Bangalore, IN
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> A horizontal marketplace for international studies and work
 
-### Making a Progressive Web App
+1. Engineered a low-latency microservice to boost customer engagement and retention by 70%, integrated, hosted, and managed Jitsi (an open-source, multi-platform VoIP and video conferencing solution) to accelerate the process.
+2. Developed and deployed a highly scalable and low-latency microservice for generating unique IDs, with an average response time (ART) of 210ms while leading the project.
+3. Decreased projected expenses for a monthly bill by 30% by moving instances into auto scaling groups and automatically shutting them down after business hours.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##### NBYULA | Software Development Engineer Intern
 
-### Advanced Configuration
+###### Nov 2020 – May 2021 | Bangalore, IN
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> A horizontal marketplace for international studies and work
 
-### Deployment
+1. Refactored the product using ReactJs,resulting in a significant improvement of 80% in web vitals performance.
+2. Acquired knowledge of and implemented the Principle of Least Privilege (PoLP) to microservices and databases in Amazon Web Services (AWS),resulting in more secure systems.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## About Me
 
-### `npm run build` fails to minify
+**[Resume](https://drive.google.com/file/d/1J41PUnVjKulNvvmbA_WOTt3i6kjMcriW/view)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[Leetcode profile](https://leetcode.com/stud_64/)**
+
+
+
+
+
+
+
+**[LinkedIn profile](https://www.linkedin.com/in/siddharth-gangwar/)**
+
+
+
+
+
+
+
+
+**[Twitter profile](https://twitter.com/sidgangs99)**
+
+
+
+
+
+
+
+
+**[Medium profile](https://medium.com/@sidgangs99)**
+
+
+
+
+
+
+
+
+
+
+
+
+
