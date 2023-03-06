@@ -21,9 +21,9 @@ export const blogs = {
   ],
 };
 
-// npm package: @dhaiwat10/react-link-preview
-export const urlPreviewGeneratorLink =
-  "https://link-preview-no-cache.herokuapp.com/v2";
+export const urlPreviewGeneratorLink = 'https://api.linkpreview.net'
+
+export const linkPreviewKey = 'de7518a80e44fc152e8096e390d42670'
 
 export const resumeDriveLink =
   "https://drive.google.com/file/d/1sG29o4Uze65RrmUyzoyt-Fh0GfBIWuzh/view?usp=sharing";

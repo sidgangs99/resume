@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import { urlPreviewGeneratorLink } from "../../constants/links";
+import { linkPreviewKey, urlPreviewGeneratorLink } from '../../constants/links'
 import CardComponent from "../templates/cardComponent";
 import CardSkeletonComponent from "../templates/cardSkeleton";
 
 export default function BlogsPreviewGenerator({ url }) {
-  const [previewData, setPreviewData] = useState({});
-
+  const [previewData, setPreviewData] = useState({})
   useEffect(() => {
     axios
-      .get(`${urlPreviewGeneratorLink}`, {
-        params: { url: url },
-      })
-      .then(({ data }) => {
-        const { metadata } = data;
-        setPreviewData(metadata);
-      });
+        .post(urlPreviewGeneratorLink, {
+            key: linkPreviewKey,
+            q: url,
+        })
+        .then(({ data }) => {
+            const { metadata } = data
+            setPreviewData(metadata)
+        })
   }, [url]);
 
   useEffect(() => {
