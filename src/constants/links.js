@@ -35,9 +35,15 @@ export const blogs = {
 
 export const urlPreviewGeneratorLink =
     process.env.NODE_ENV === 'development'
-        ? 'some-random-link'
+        ? 'https://some-random-link.com/'
+        : 'https://api.peekalink.io/'
+
+export const fallbackUrlPreviewGeneratorLink =
+    process.env.NODE_ENV === 'development'
+        ? 'https://some-random-fallback-link.com/'
         : 'https://api.linkpreview.net/'
 
+export const peekALinkKey = 'd20d094a-1468-49fe-8ca5-7da5309f86a7'
 export const linkPreviewKey = 'de7518a80e44fc152e8096e390d42670'
 
 export const resumeDriveLink =

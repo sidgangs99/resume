@@ -29,7 +29,7 @@ export default function BlogsPreviewGenerator({ url }) {
                     title={data?.title}
                     url={url}
                     description={data?.description}
-                    image={data?.image}
+                    image={data?.image?.url || data?.image}
                 />
             )}
         </div>
