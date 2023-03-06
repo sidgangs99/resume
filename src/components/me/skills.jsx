@@ -1,17 +1,17 @@
 import React from "react";
 
+import { resumeDriveLink } from '../../constants/links'
 import JavascriptGif from "../../images/gifs/javascript-gif.gif";
+import LinuxGif from '../../images/gifs/linux-gif.gif'
 import PythonGif from "../../images/gifs/python-gif.gif";
+import AWSIcon from '../../images/icons/aws-icon'
 import CppIcon from "../../images/icons/cpp-icon";
+import GitIcon from '../../images/icons/git-icon'
 import GoLangIcon from "../../images/icons/golang-icon";
-import LinuxGif from "../../images/gifs/linux-gif.gif";
-import ReactIcon from "../../images/icons/react-icon";
-import NodeIcon from "../../images/icons/node-icon";
-import GitIcon from "../../images/icons/git-icon";
-import AWSIcon from "../../images/icons/aws-icon";
-import { resumeDriveLink } from "../../constants/links";
-import ReactQueryIcon from '../../images/icons/react-query'
 import MongoDbIcon from '../../images/icons/mongodb-icon'
+import NodeIcon from '../../images/icons/node-icon'
+import ReactIcon from "../../images/icons/react-icon";
+import ReactQueryIcon from '../../images/icons/react-query'
 import RedisIcon from '../../images/icons/redis-icon'
 
 export default function Skills() {

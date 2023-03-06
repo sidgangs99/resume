@@ -1,46 +1,50 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
+  "homepage": "https://sidgangs99.github.io/resume",
+  "name": "portfolio",
+  "version": "0.1.0",
   "private": true,
-  "description": "resume",
-  "author": "Siddharth Gangwar",
-  "keywords": [
-    "gatsby"
-  ],
-  "homepage": "https://sidgangs99.github.io/resume/",
-  "scripts": {
-    "predeploy": "npm run build",
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "commit": "cz"
-  },
   "dependencies": {
-    "axios": "^0.26.1",
-    "gatsby": "^4.10.3",
-    "gatsby-plugin-image": "^2.18.1",
-    "gatsby-plugin-manifest": "^4.18.1",
-    "gatsby-plugin-react-helmet": "^5.18.0",
-    "gatsby-plugin-sharp": "^4.10.2",
-    "gatsby-plugin-sitemap": "^5.10.2",
-    "gatsby-source-filesystem": "^4.10.1",
-    "gatsby-transformer-sharp": "^4.10.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "@tanstack/react-query": "^4.26.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-query": "^3.39.3"
+    "react-query": "^3.39.3",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "eslint": "^8.11.0",
-    "gatsby-plugin-postcss": "^5.10.0",
-    "gh-pages": "^3.2.3",
-    "postcss": "^8.4.12",
     "prettier": "^2.8.4",
-    "prettier-plugin-tailwindcss": "^0.1.8",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.2.7"
   }
 }

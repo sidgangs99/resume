@@ -7,16 +7,21 @@ import {
 } from '../../../constants/links'
 
 export const useGetPreview = (url) => {
-    const { isLoading, error, data } = useQuery(
+    const { data, error, status } = useQuery(
         ['urlPreview', url],
-        () => {
+        () =>
             axios.post(urlPreviewGeneratorLink, {
                 key: linkPreviewKey,
                 q: url,
-            })
-        },
-        { keepPreviousData: true, staleTime: 120000, enabled: false }
+            }),
+        {
+            keepPreviousData: true,
+            staleTime: 120000,
+            retry: 0,
+            refetchOnWindowFocus: false,
+            refetchOnReconnect: false,
+        }
     )
 
-    return { isLoading, data: data?.data, error }
+    return { status, data: data?.data, error }
 }

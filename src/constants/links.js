@@ -1,3 +1,9 @@
+export const Status = {
+    loading: 'loading',
+    success: 'success',
+    error: 'error',
+}
+
 export const profileLinks = {
     medium: 'https://medium.com/@sidgangs99',
     linkedin: 'https://www.linkedin.com/in/siddharth-gangwar/',
@@ -35,4 +41,4 @@ export const urlPreviewGeneratorLink =
 export const linkPreviewKey = 'de7518a80e44fc152e8096e390d42670'
 
 export const resumeDriveLink =
-  "https://drive.google.com/file/d/1sG29o4Uze65RrmUyzoyt-Fh0GfBIWuzh/view?usp=sharing";
+    'https://drive.google.com/file/d/1J41PUnVjKulNvvmbA_WOTt3i6kjMcriW/view?usp=sharing'
