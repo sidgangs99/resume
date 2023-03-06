@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -11,6 +11,18 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        ref: main
+        submodules: recursive
+      # Replace the following line with the updated version
+      # of Node.js that you want to use (e.g., 16.x).
+      env:
+        NODE_VERSION: 16.x
+
+    - name: Use Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ env.NODE_VERSION }}
 
     - name: Install dependencies
       run: |
