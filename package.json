@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "commit": "cz"
   },
   "eslintConfig": {
     "extends": [
@@ -44,8 +45,15 @@
     ]
   },
   "devDependencies": {
+    "commitizen": "^4.3.0",
     "prettier": "^2.8.4",
     "rome": "^11.0.0",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "commitizen-emoji": "^1.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/commitizen-emoji"
+    }
   }
 }
