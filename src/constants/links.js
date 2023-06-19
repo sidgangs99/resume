@@ -47,4 +47,4 @@ export const peekALinkKey = 'd20d094a-1468-49fe-8ca5-7da5309f86a7'
 export const linkPreviewKey = 'de7518a80e44fc152e8096e390d42670'
 
 export const resumeDriveLink =
-    'https://drive.google.com/file/d/1J41PUnVjKulNvvmbA_WOTt3i6kjMcriW/view?usp=sharing'
+    'https://drive.google.com/file/d/1wb8fqbFL7Zq07dJnv_k8BkiIj_kHA5Wd/view?usp=sharing'
