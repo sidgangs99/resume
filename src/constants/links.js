@@ -46,5 +46,7 @@ export const fallbackUrlPreviewGeneratorLink =
 export const peekALinkKey = 'd20d094a-1468-49fe-8ca5-7da5309f86a7'
 export const linkPreviewKey = 'de7518a80e44fc152e8096e390d42670'
 
+export const krudAppLink = 'https://tinyurl.com/dbdesigning'
+
 export const resumeDriveLink =
     'https://drive.google.com/drive/folders/1e5B3YZmIa_0Ih1VQLXsnWUW-a8z5ZOr_?usp=share_link'
