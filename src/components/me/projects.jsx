@@ -13,7 +13,8 @@ export default function Projects() {
                 </a>
                 <a href={krudAppLink} target="_blank" rel="noreferrer">
                     <p className="font-mono text-red-400 text-xl md:text-3xl">
-                        A no code db designer and script generator
+                        Effortlessly design and generate scripts with our
+                        no-code database wizard!
                     </p>
                 </a>
             </div>
